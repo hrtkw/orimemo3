@@ -1,0 +1,777 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B8DE6F92833723B000BC289 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DE6F82833723B000BC289 /* AppDelegate.swift */; };
+		4B8DE6FB2833723B000BC289 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DE6FA2833723B000BC289 /* SceneDelegate.swift */; };
+		4B8DE6FD2833723B000BC289 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DE6FC2833723B000BC289 /* ViewController.swift */; };
+		4B8DE7002833723B000BC289 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B8DE6FE2833723B000BC289 /* Main.storyboard */; };
+		4B8DE7022833723D000BC289 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B8DE7012833723D000BC289 /* Assets.xcassets */; };
+		4B8DE7052833723D000BC289 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B8DE7032833723D000BC289 /* LaunchScreen.storyboard */; };
+		4B8DE7102833723D000BC289 /* orimemo2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DE70F2833723D000BC289 /* orimemo2Tests.swift */; };
+		4B8DE71A2833723D000BC289 /* orimemo2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DE7192833723D000BC289 /* orimemo2UITests.swift */; };
+		4B8DE71C2833723D000BC289 /* orimemo2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DE71B2833723D000BC289 /* orimemo2UITestsLaunchTests.swift */; };
+		4B8DE72928337498000BC289 /* AddMemoControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DE72828337498000BC289 /* AddMemoControllerViewController.swift */; };
+		4B8DE72B283374C4000BC289 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DE72A283374C4000BC289 /* DataViewController.swift */; };
+		4BEBCC03285069FB008AEAEE /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEBCC02285069FB008AEAEE /* CalendarView.swift */; };
+		4BEBCC0A2862E8A6008AEAEE /* UserNotificationUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEBCC092862E8A6008AEAEE /* UserNotificationUtil.swift */; };
+		A2302042A90336F50B688FF9 /* Pods_orimemo2_orimemo2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 124460E26F77E352F18D2271 /* Pods_orimemo2_orimemo2UITests.framework */; };
+		A576908E2EE67FF4A47A0704 /* Pods_orimemo2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CB0B9DDA07CDA84F74E47BA /* Pods_orimemo2Tests.framework */; };
+		E0DCB1E04EA5773824C460A4 /* Pods_orimemo2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F44112CC3EB52EDE7680D123 /* Pods_orimemo2.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B8DE70C2833723D000BC289 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B8DE6ED2833723B000BC289 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B8DE6F42833723B000BC289;
+			remoteInfo = orimemo2;
+		};
+		4B8DE7162833723D000BC289 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B8DE6ED2833723B000BC289 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B8DE6F42833723B000BC289;
+			remoteInfo = orimemo2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		124460E26F77E352F18D2271 /* Pods_orimemo2_orimemo2UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_orimemo2_orimemo2UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E05B747B59D533E6D1CE075 /* Pods-orimemo2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-orimemo2.debug.xcconfig"; path = "Target Support Files/Pods-orimemo2/Pods-orimemo2.debug.xcconfig"; sourceTree = "<group>"; };
+		4B8DE6F52833723B000BC289 /* orimemo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = orimemo2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B8DE6F82833723B000BC289 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4B8DE6FA2833723B000BC289 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4B8DE6FC2833723B000BC289 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4B8DE6FF2833723B000BC289 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4B8DE7012833723D000BC289 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B8DE7042833723D000BC289 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B8DE7062833723D000BC289 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B8DE70B2833723D000BC289 /* orimemo2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = orimemo2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B8DE70F2833723D000BC289 /* orimemo2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = orimemo2Tests.swift; sourceTree = "<group>"; };
+		4B8DE7152833723D000BC289 /* orimemo2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = orimemo2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B8DE7192833723D000BC289 /* orimemo2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = orimemo2UITests.swift; sourceTree = "<group>"; };
+		4B8DE71B2833723D000BC289 /* orimemo2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = orimemo2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4B8DE72828337498000BC289 /* AddMemoControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMemoControllerViewController.swift; sourceTree = "<group>"; };
+		4B8DE72A283374C4000BC289 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		4BCDD5346F96B5BDA2D2F4A3 /* Pods-orimemo2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-orimemo2.release.xcconfig"; path = "Target Support Files/Pods-orimemo2/Pods-orimemo2.release.xcconfig"; sourceTree = "<group>"; };
+		4BEBCC02285069FB008AEAEE /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		4BEBCC042862E69D008AEAEE /* orimemo2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = orimemo2.entitlements; sourceTree = "<group>"; };
+		4BEBCC092862E8A6008AEAEE /* UserNotificationUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNotificationUtil.swift; sourceTree = "<group>"; };
+		64ECDA7C87EB7666E92EA953 /* Pods-orimemo2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-orimemo2Tests.debug.xcconfig"; path = "Target Support Files/Pods-orimemo2Tests/Pods-orimemo2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6CB0B9DDA07CDA84F74E47BA /* Pods_orimemo2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_orimemo2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADE64A85E64F5BC76FF1D745 /* Pods-orimemo2-orimemo2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-orimemo2-orimemo2UITests.debug.xcconfig"; path = "Target Support Files/Pods-orimemo2-orimemo2UITests/Pods-orimemo2-orimemo2UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D4C1024A295C76A03EFB04CA /* Pods-orimemo2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-orimemo2Tests.release.xcconfig"; path = "Target Support Files/Pods-orimemo2Tests/Pods-orimemo2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		EC211ABAE2EDA128E02C7BA3 /* Pods-orimemo2-orimemo2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-orimemo2-orimemo2UITests.release.xcconfig"; path = "Target Support Files/Pods-orimemo2-orimemo2UITests/Pods-orimemo2-orimemo2UITests.release.xcconfig"; sourceTree = "<group>"; };
+		F44112CC3EB52EDE7680D123 /* Pods_orimemo2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_orimemo2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B8DE6F22833723B000BC289 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0DCB1E04EA5773824C460A4 /* Pods_orimemo2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B8DE7082833723D000BC289 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A576908E2EE67FF4A47A0704 /* Pods_orimemo2Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B8DE7122833723D000BC289 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2302042A90336F50B688FF9 /* Pods_orimemo2_orimemo2UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B8DE6EC2833723B000BC289 = {
+			isa = PBXGroup;
+			children = (
+				4B8DE6F72833723B000BC289 /* orimemo2 */,
+				4B8DE70E2833723D000BC289 /* orimemo2Tests */,
+				4B8DE7182833723D000BC289 /* orimemo2UITests */,
+				4B8DE6F62833723B000BC289 /* Products */,
+				BA8E16F9D20AF9B18DCA8745 /* Pods */,
+				B0082557F8F91BE0660D5F68 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4B8DE6F62833723B000BC289 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B8DE6F52833723B000BC289 /* orimemo2.app */,
+				4B8DE70B2833723D000BC289 /* orimemo2Tests.xctest */,
+				4B8DE7152833723D000BC289 /* orimemo2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B8DE6F72833723B000BC289 /* orimemo2 */ = {
+			isa = PBXGroup;
+			children = (
+				4BEBCC042862E69D008AEAEE /* orimemo2.entitlements */,
+				4B8DE6F82833723B000BC289 /* AppDelegate.swift */,
+				4B8DE6FA2833723B000BC289 /* SceneDelegate.swift */,
+				4B8DE6FC2833723B000BC289 /* ViewController.swift */,
+				4B8DE6FE2833723B000BC289 /* Main.storyboard */,
+				4B8DE7012833723D000BC289 /* Assets.xcassets */,
+				4B8DE7032833723D000BC289 /* LaunchScreen.storyboard */,
+				4B8DE7062833723D000BC289 /* Info.plist */,
+				4B8DE72828337498000BC289 /* AddMemoControllerViewController.swift */,
+				4B8DE72A283374C4000BC289 /* DataViewController.swift */,
+				4BEBCC02285069FB008AEAEE /* CalendarView.swift */,
+				4BEBCC092862E8A6008AEAEE /* UserNotificationUtil.swift */,
+			);
+			path = orimemo2;
+			sourceTree = "<group>";
+		};
+		4B8DE70E2833723D000BC289 /* orimemo2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4B8DE70F2833723D000BC289 /* orimemo2Tests.swift */,
+			);
+			path = orimemo2Tests;
+			sourceTree = "<group>";
+		};
+		4B8DE7182833723D000BC289 /* orimemo2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				4B8DE7192833723D000BC289 /* orimemo2UITests.swift */,
+				4B8DE71B2833723D000BC289 /* orimemo2UITestsLaunchTests.swift */,
+			);
+			path = orimemo2UITests;
+			sourceTree = "<group>";
+		};
+		B0082557F8F91BE0660D5F68 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F44112CC3EB52EDE7680D123 /* Pods_orimemo2.framework */,
+				124460E26F77E352F18D2271 /* Pods_orimemo2_orimemo2UITests.framework */,
+				6CB0B9DDA07CDA84F74E47BA /* Pods_orimemo2Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA8E16F9D20AF9B18DCA8745 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E05B747B59D533E6D1CE075 /* Pods-orimemo2.debug.xcconfig */,
+				4BCDD5346F96B5BDA2D2F4A3 /* Pods-orimemo2.release.xcconfig */,
+				ADE64A85E64F5BC76FF1D745 /* Pods-orimemo2-orimemo2UITests.debug.xcconfig */,
+				EC211ABAE2EDA128E02C7BA3 /* Pods-orimemo2-orimemo2UITests.release.xcconfig */,
+				64ECDA7C87EB7666E92EA953 /* Pods-orimemo2Tests.debug.xcconfig */,
+				D4C1024A295C76A03EFB04CA /* Pods-orimemo2Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B8DE6F42833723B000BC289 /* orimemo2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B8DE71F2833723D000BC289 /* Build configuration list for PBXNativeTarget "orimemo2" */;
+			buildPhases = (
+				705B6A4411BD07CFB22EC681 /* [CP] Check Pods Manifest.lock */,
+				4B8DE6F12833723B000BC289 /* Sources */,
+				4B8DE6F22833723B000BC289 /* Frameworks */,
+				4B8DE6F32833723B000BC289 /* Resources */,
+				8B4DD98E9FF2EBE78EB21425 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = orimemo2;
+			productName = orimemo2;
+			productReference = 4B8DE6F52833723B000BC289 /* orimemo2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B8DE70A2833723D000BC289 /* orimemo2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B8DE7222833723D000BC289 /* Build configuration list for PBXNativeTarget "orimemo2Tests" */;
+			buildPhases = (
+				CD316E80CA2B75E3EF67957F /* [CP] Check Pods Manifest.lock */,
+				4B8DE7072833723D000BC289 /* Sources */,
+				4B8DE7082833723D000BC289 /* Frameworks */,
+				4B8DE7092833723D000BC289 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B8DE70D2833723D000BC289 /* PBXTargetDependency */,
+			);
+			name = orimemo2Tests;
+			productName = orimemo2Tests;
+			productReference = 4B8DE70B2833723D000BC289 /* orimemo2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4B8DE7142833723D000BC289 /* orimemo2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B8DE7252833723D000BC289 /* Build configuration list for PBXNativeTarget "orimemo2UITests" */;
+			buildPhases = (
+				AC4204FB34055F42972AEB51 /* [CP] Check Pods Manifest.lock */,
+				4B8DE7112833723D000BC289 /* Sources */,
+				4B8DE7122833723D000BC289 /* Frameworks */,
+				4B8DE7132833723D000BC289 /* Resources */,
+				983F20EE03B61D67B2BB59FD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B8DE7172833723D000BC289 /* PBXTargetDependency */,
+			);
+			name = orimemo2UITests;
+			productName = orimemo2UITests;
+			productReference = 4B8DE7152833723D000BC289 /* orimemo2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B8DE6ED2833723B000BC289 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					4B8DE6F42833723B000BC289 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					4B8DE70A2833723D000BC289 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 4B8DE6F42833723B000BC289;
+					};
+					4B8DE7142833723D000BC289 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 4B8DE6F42833723B000BC289;
+					};
+				};
+			};
+			buildConfigurationList = 4B8DE6F02833723B000BC289 /* Build configuration list for PBXProject "orimemo2" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B8DE6EC2833723B000BC289;
+			productRefGroup = 4B8DE6F62833723B000BC289 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B8DE6F42833723B000BC289 /* orimemo2 */,
+				4B8DE70A2833723D000BC289 /* orimemo2Tests */,
+				4B8DE7142833723D000BC289 /* orimemo2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B8DE6F32833723B000BC289 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B8DE7052833723D000BC289 /* LaunchScreen.storyboard in Resources */,
+				4B8DE7022833723D000BC289 /* Assets.xcassets in Resources */,
+				4B8DE7002833723B000BC289 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B8DE7092833723D000BC289 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B8DE7132833723D000BC289 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		705B6A4411BD07CFB22EC681 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-orimemo2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B4DD98E9FF2EBE78EB21425 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-orimemo2/Pods-orimemo2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-orimemo2/Pods-orimemo2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-orimemo2/Pods-orimemo2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		983F20EE03B61D67B2BB59FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-orimemo2-orimemo2UITests/Pods-orimemo2-orimemo2UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-orimemo2-orimemo2UITests/Pods-orimemo2-orimemo2UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-orimemo2-orimemo2UITests/Pods-orimemo2-orimemo2UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC4204FB34055F42972AEB51 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-orimemo2-orimemo2UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD316E80CA2B75E3EF67957F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-orimemo2Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B8DE6F12833723B000BC289 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B8DE6FD2833723B000BC289 /* ViewController.swift in Sources */,
+				4B8DE6F92833723B000BC289 /* AppDelegate.swift in Sources */,
+				4BEBCC03285069FB008AEAEE /* CalendarView.swift in Sources */,
+				4B8DE72B283374C4000BC289 /* DataViewController.swift in Sources */,
+				4BEBCC0A2862E8A6008AEAEE /* UserNotificationUtil.swift in Sources */,
+				4B8DE72928337498000BC289 /* AddMemoControllerViewController.swift in Sources */,
+				4B8DE6FB2833723B000BC289 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B8DE7072833723D000BC289 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B8DE7102833723D000BC289 /* orimemo2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B8DE7112833723D000BC289 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B8DE71C2833723D000BC289 /* orimemo2UITestsLaunchTests.swift in Sources */,
+				4B8DE71A2833723D000BC289 /* orimemo2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B8DE70D2833723D000BC289 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B8DE6F42833723B000BC289 /* orimemo2 */;
+			targetProxy = 4B8DE70C2833723D000BC289 /* PBXContainerItemProxy */;
+		};
+		4B8DE7172833723D000BC289 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B8DE6F42833723B000BC289 /* orimemo2 */;
+			targetProxy = 4B8DE7162833723D000BC289 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B8DE6FE2833723B000BC289 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B8DE6FF2833723B000BC289 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4B8DE7032833723D000BC289 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B8DE7042833723D000BC289 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B8DE71D2833723D000BC289 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4B8DE71E2833723D000BC289 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B8DE7202833723D000BC289 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E05B747B59D533E6D1CE075 /* Pods-orimemo2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = orimemo2/orimemo2.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = orimemo2/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.orimemo2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B8DE7212833723D000BC289 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BCDD5346F96B5BDA2D2F4A3 /* Pods-orimemo2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = orimemo2/orimemo2.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = orimemo2/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.orimemo2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4B8DE7232833723D000BC289 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64ECDA7C87EB7666E92EA953 /* Pods-orimemo2Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.orimemo2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/orimemo2.app/orimemo2";
+			};
+			name = Debug;
+		};
+		4B8DE7242833723D000BC289 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4C1024A295C76A03EFB04CA /* Pods-orimemo2Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.orimemo2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/orimemo2.app/orimemo2";
+			};
+			name = Release;
+		};
+		4B8DE7262833723D000BC289 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADE64A85E64F5BC76FF1D745 /* Pods-orimemo2-orimemo2UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.orimemo2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = orimemo2;
+			};
+			name = Debug;
+		};
+		4B8DE7272833723D000BC289 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC211ABAE2EDA128E02C7BA3 /* Pods-orimemo2-orimemo2UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.orimemo2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = orimemo2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B8DE6F02833723B000BC289 /* Build configuration list for PBXProject "orimemo2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B8DE71D2833723D000BC289 /* Debug */,
+				4B8DE71E2833723D000BC289 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B8DE71F2833723D000BC289 /* Build configuration list for PBXNativeTarget "orimemo2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B8DE7202833723D000BC289 /* Debug */,
+				4B8DE7212833723D000BC289 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B8DE7222833723D000BC289 /* Build configuration list for PBXNativeTarget "orimemo2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B8DE7232833723D000BC289 /* Debug */,
+				4B8DE7242833723D000BC289 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B8DE7252833723D000BC289 /* Build configuration list for PBXNativeTarget "orimemo2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B8DE7262833723D000BC289 /* Debug */,
+				4B8DE7272833723D000BC289 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B8DE6ED2833723B000BC289 /* Project object */;
+}
